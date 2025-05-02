@@ -1,14 +1,16 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white">
-      <div className="text-center p-8 max-w-xl">
-        <h1 className="text-4xl font-bold mb-4 text-blue-700">Welcome to AI Sparks</h1>
-        <p className="text-lg mb-6 text-gray-700">
-          Learn AI tools, prompts, and workflows. Simple lessons. Real results.
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 flex items-center justify-center px-4">
+      <div className="text-center text-white max-w-xl animate-fade-in">
+        <h1 className="text-5xl font-extrabold mb-6 leading-tight drop-shadow">
+          Welcome to <span className="text-blue-400">AI Sparks</span>
+        </h1>
+        <p className="text-lg mb-8 text-gray-300">
+          Learn AI tools, master prompts, and automate tasks — one bite-sized lesson at a time.
         </p>
         <a
           href="/lessons"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition"
+          className="bg-blue-500 hover:bg-blue-600 transition px-8 py-3 text-white rounded-lg shadow-lg font-medium ring-2 ring-blue-400 hover:ring-blue-300 focus:outline-none"
         >
           Start Learning
         </a>
